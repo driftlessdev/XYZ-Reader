@@ -25,6 +25,10 @@
         <item name="android:textColorSecondary">#727272</item>
     </style>
 
+    <style name="Theme.Bacon.List" parent="Theme.Bacon">
+        <item name="android:windowExitTransition">@transition/list_exit</item>
+    </style>
+
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
