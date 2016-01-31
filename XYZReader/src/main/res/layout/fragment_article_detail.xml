@@ -57,35 +57,34 @@
 
                     <TextView
                         android:id="@+id/article_title"
-                        style="?android:attr/textAppearanceLarge"
+                        style="@style/TextAppearance.AppCompat.Title.Inverse"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                        android:fontFamily="sans-serif-condensed"
-                        android:textColor="#fff"
                         android:textStyle="bold"
                         android:textSize="@dimen/detail_title_text_size"
+                        android:text="Title Title Title"
                         android:lineSpacingMultiplier="0.9" />
 
                     <TextView
                         android:id="@+id/article_byline"
-                        style="?android:attr/textAppearanceSmall"
+                        style="@style/TextAppearance.AppCompat.Caption"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#8fff" />
+                        android:text="Byline byline byline" />
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/article_body"
-                    style="?android:attr/textAppearanceMedium"
+                    style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/detail_inner_horiz_margin"
                     android:layout_marginRight="@dimen/detail_inner_horiz_margin"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
-                    android:textColor="@color/ltgray"
-                    android:textColorLink="@color/theme_accent"
-                    android:textSize="@dimen/detail_body_text_size"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum nisl quis porttitor pulvinar. In vel diam massa. Nunc scelerisque felis nec libero feugiat, vel interdum tellus dignissim. Donec sodales lacinia ante vitae finibus. Nam ornare metus vel velit viverra accumsan. Etiam non arcu vitae lectus vehicula placerat. Donec a turpis tristique, tincidunt risus in, tincidunt neque. Nulla quis lobortis tellus.
+
+Sed luctus iaculis convallis. Nulla ligula eros, dictum vel maximus non, iaculis rutrum quam. Cras hendrerit felis at urna mattis accumsan sed eu libero. Nullam arcu nisi, tempus at est finibus, tincidunt luctus augue. Curabitur tristique augue id nisl ultricies ornare. Mauris convallis tristique blandit. Praesent vestibulum congue dui, eget congue ipsum dictum malesuada. Curabitur luctus, arcu id ultrices elementum, tortor magna fringilla eros, sit amet semper augue magna eget augue. Nunc et felis libero. Duis orci leo, dictum eget ornare nec, elementum id ligula. Cras faucibus diam dui, vel sagittis dolor faucibus at. Nunc eget magna lacinia, sodales massa sit amet, fermentum urna. Sed blandit libero eget vestibulum ultricies. Duis in blandit leo. Vestibulum mattis gravida nisi, in vehicula mauris convallis vitae. Maecenas laoreet lorem neque, nec finibus sem laoreet non."
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
